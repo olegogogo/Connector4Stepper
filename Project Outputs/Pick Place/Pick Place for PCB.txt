@@ -1,33 +1,40 @@
 Altium Designer Pick and Place Locations
-C:\altium workspace\RCL\SQ-PCB-Template\Project Outputs\Pick Place\Pick Place for PCB.txt
+C:\altium workspace\Connector4Stepper\Project Outputs\Pick Place\Pick Place for PCB.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       21.05.23
-Time:       23:12
-Revision:   5e4315ee04f29f4e4b690181d9d2520de0cc7d66
+Date:       23.01.24
+Time:       12:48
+Revision:   03daf91815f434025c2a64565355e16acfcf67e8
 Variant:    No variations
 Units used: mm
 
-Designator Comment                  Layer    Footprint                 Center-X(mm) Center-Y(mm) Rotation Description                                                                        
-Y1         CSTCE8M00G55-R0          TopLayer *OSC_CSTCE8M00G55-R0      26.9250      13.7750      90       "Ceramic Resonator 8MHz ??0.5% _Tol_ ??0.2% _Stability_ 33pF 40Ohm 3-Pin CSMD T/R" 
-U1         SPX3819M5-L-3-3/TR       TopLayer *SOT95P280X145-5N         37.8250      10.0000      0        "Low Dropout Voltage Regulator, 3.3V 0.5A, В±1%, 2.5 to 16 Vin, 5-Pin SOT-23"      
-SWD1       BM04B-GHS-TBT(LF)(SN)(N) TopLayer JST_BM04B-GHS-holes       39.2750      17.0250      90       "Conn Shrouded Header HDR 4 POS 1.25mm Solder ST SMD Reel"                         
-Rv2        RC0402FR-072K4L          TopLayer RESC1005X40N              33.6750      10.5750      90       "0.062Вт 0402 2.4 кОм, 1%, Чип резистор (SMD)"                                     
-Rv1        RC0402FR-074K3L          TopLayer RESC1005X40N              32.7000      10.5500      270      "0.062Вт 0402 4.3 кОм, 1%, Чип резистор (SMD)"                                     
-R17        RC0402FR-074K7L          TopLayer RESC1005X40N              27.5500      11.0000      180      "0.062Вт 0402 4.7 кОм, 1%, Чип резистор (SMD)"                                     
-R16        RC0402FR-07330RL         TopLayer RESC1005X40N              29.3250      21.6750      90       "0.062Вт 0402 330 Ом, 1%, Чип резистор (SMD)"                                      
-R15        RC0402FR-07330RL         TopLayer RESC1005X40N              26.8750      21.7500      90       "0.062Вт 0402 330 Ом, 1%, Чип резистор (SMD)"                                      
-R14        RC0402FR-07330RL         TopLayer RESC1005X40N              28.0500      21.7250      90       "0.062Вт 0402 330 Ом, 1%, Чип резистор (SMD)"                                      
-R12        RC0402FR-074K7L          TopLayer RESC1005X40N              31.6750      21.0000      90       "0.062Вт 0402 4.7 кОм, 1%, Чип резистор (SMD)"                                     
-R11        RC0402FR-074K7L          TopLayer RESC1005X40N              30.6500      21.0750      90       "0.062Вт 0402 4.7 кОм, 1%, Чип резистор (SMD)"                                     
-LED1       LTST-C19HE1WT            TopLayer LTST-C19HE1WT             28.6750      23.8750      90       Blue/Green/Red                                                                     
-IC1        STM32G0B1CEU6            TopLayer QFN50P700X700X60-49N-D    33.0000      15.7250      0        "Integrated Circuit"                                                               
-DEBUG?     SM06B-SRSS-TB(LF)(SN)    TopLayer JST_SM06B-SRSS-TB(LF)(SN) 36.4500      23.7875      180      "Connector Header Surface Mount, Right Angle 6 position 0.039 _1.00mm_"            
-C16        GCM155R71H104KE02D       TopLayer CAPC1005X55N              27.6250      16.0250      0        "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                      
-C15        GCM155R71H104KE02D       TopLayer CAPC1005X55N              27.6250      18.6750      0        "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                      
-C14        GCM155R71H104KE02D       TopLayer CAPC1005X55N              27.6250      17.7750      0        "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                      
-C13        GCM155R71H104KE02D       TopLayer CAPC1005X55N              27.6250      16.9000      0        "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                      
-C2         GCM155R71H104KE02D       TopLayer CAPC1005X55N              40.7000      10.5250      90       "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                      
-C1         GCM155R71H104KE02D       TopLayer CAPC1005X55N              34.9750      10.4250      90       "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                      
+Designator Comment          Layer       Footprint                           Center-X(mm) Center-Y(mm) Rotation Description                                                                              
+R3         RC0603FR-071KL   TopLayer    J1-0603                             9.0000       6.5000       270      "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 
+R2         RC0603FR-071KL   TopLayer    J1-0603                             23.0000      7.0000       270      "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 
+R1         RC0603FR-071KL   TopLayer    J1-0603                             154.0000     21.5000      90       "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 
+D3         0603-LED-RED     TopLayer    *LEDM1608X80_LTE-C1906R-14(Primary) 9.0000       10.0000      270      "Red 620nm LED Indication - Discrete 2.2V 0603 (1608 Metric)"                            
+D2         0603-LED-RED     TopLayer    *LEDM1608X80_LTE-C1906R-14(Primary) 23.0000      11.0000      270      "Red 620nm LED Indication - Discrete 2.2V 0603 (1608 Metric)"                            
+D1         0603-LED-RED     TopLayer    *LEDM1608X80_LTE-C1906R-14(Primary) 154.0000     18.5000      90       "Red 620nm LED Indication - Discrete 2.2V 0603 (1608 Metric)"                            
+P2         DS1023-2X13S21   BottomLayer DS10232X13S21                       18.2700      19.7600      270      Connector                                                                                
+Z2         DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    66.0000      5.0000       180      Connector                                                                                
+Z2PWR      DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    81.0000      5.0000       180      Connector                                                                                
+Z1         DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    65.6458      33.7500      0        Connector                                                                                
+Z1PWR      DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    81.0000      33.7500      0        Connector                                                                                
+Y2         DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    97.2500      5.0000       180      Connector                                                                                
+Y2PWR      DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    112.2500     5.0000       180      Connector                                                                                
+Y1         DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    96.8958      33.7500      0        Connector                                                                                
+Y1PWR      DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    112.2500     33.7500      0        Connector                                                                                
+X2         DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    128.5000     5.0000       180      Connector                                                                                
+X2PWR      DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    143.5000     5.0000       180      Connector                                                                                
+X1         DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    128.2500     33.7500      0        Connector                                                                                
+X1PWR      DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    143.7500     33.7500      0        Connector                                                                                
+PWR_IN     DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    166.0000     19.5000      270      Connector                                                                                
+ESTOP      DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    159.7500     33.7500      0        Connector                                                                                
+AUX        DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    159.7500     5.0000       180      Connector                                                                                
+A2         DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    34.7500      5.0000       180      Connector                                                                                
+A2PWR      DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    49.7500      5.0000       180      Connector                                                                                
+A1         DG126-5.0-03P-14 TopLayer    DG1265003P1400AH                    34.2500      33.7500      0        Connector                                                                                
+A1PWR      DG126-5.0-02P-14 TopLayer    DG1265002P1400AH                    49.7500      33.7500      0        Connector                                                                                
+P1         DS1023-2X13S21   BottomLayer DS10232X13S21                       4.2300       19.7600      270      Connector                                                                                

@@ -1,0 +1,229 @@
+Wire List
+
+<<< Component List >>>
+DG126-5.0-03P-14                A1             DG1265003P1400AH
+DG126-5.0-02P-14                A1PWR          DG1265002P1400AH
+DG126-5.0-03P-14                A2             DG1265003P1400AH
+DG126-5.0-02P-14                A2PWR          DG1265002P1400AH
+DG126-5.0-03P-14                AUX            DG1265003P1400AH
+0603-LED-RED                    D1             *LEDM1608X80_LTE-C1906R-14(Pr
+0603-LED-RED                    D2             *LEDM1608X80_LTE-C1906R-14(Pr
+0603-LED-RED                    D3             *LEDM1608X80_LTE-C1906R-14(Pr
+DG126-5.0-03P-14                ESTOP          DG1265003P1400AH
+DS1023-2X13S21                  P1             DS10232X13S21
+DS1023-2X13S21                  P2             DS10232X13S21
+DG126-5.0-02P-14                PWR_IN         DG1265002P1400AH
+RC0603FR-071KL                  R1             J1-0603
+RC0603FR-071KL                  R2             J1-0603
+RC0603FR-071KL                  R3             J1-0603
+DG126-5.0-03P-14                X1             DG1265003P1400AH
+DG126-5.0-02P-14                X1PWR          DG1265002P1400AH
+DG126-5.0-03P-14                X2             DG1265003P1400AH
+DG126-5.0-02P-14                X2PWR          DG1265002P1400AH
+DG126-5.0-03P-14                Y1             DG1265003P1400AH
+DG126-5.0-02P-14                Y1PWR          DG1265002P1400AH
+DG126-5.0-03P-14                Y2             DG1265003P1400AH
+DG126-5.0-02P-14                Y2PWR          DG1265002P1400AH
+DG126-5.0-03P-14                Z1             DG1265003P1400AH
+DG126-5.0-02P-14                Z1PWR          DG1265002P1400AH
+DG126-5.0-03P-14                Z2             DG1265003P1400AH
+DG126-5.0-02P-14                Z2PWR          DG1265002P1400AH
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00041] STEP Z
+        P2         12      12             PASSIVE     DS1023-2X13S21
+        Z2         2       2              PASSIVE     DG126-5.0-03P-14
+
+[00040] STEP Y
+        P2         8       8              PASSIVE     DS1023-2X13S21
+        Y2         2       2              PASSIVE     DG126-5.0-03P-14
+
+[00039] STEP X
+        P2         4       4              PASSIVE     DS1023-2X13S21
+        X2         2       2              PASSIVE     DG126-5.0-03P-14
+
+[00038] STEP A
+        A2         2       2              PASSIVE     DG126-5.0-03P-14
+        P2         16      16             PASSIVE     DS1023-2X13S21
+
+[00037] PWM
+        AUX        3       3              PASSIVE     DG126-5.0-03P-14
+        P2         1       1              PASSIVE     DS1023-2X13S21
+
+[00036] OUTPUT 2
+        AUX        2       2              PASSIVE     DG126-5.0-03P-14
+        P2         5       5              PASSIVE     DS1023-2X13S21
+
+[00035] OUTPUT 1
+        AUX        1       1              PASSIVE     DG126-5.0-03P-14
+        P2         7       7              PASSIVE     DS1023-2X13S21
+
+[00034] NetP2_17
+        P2         17      17             PASSIVE     DS1023-2X13S21
+        P2         19      19             PASSIVE     DS1023-2X13S21
+        P2         21      21             PASSIVE     DS1023-2X13S21
+        P2         23      23             PASSIVE     DS1023-2X13S21
+        P2         25      25             PASSIVE     DS1023-2X13S21
+        R2         2       2              PASSIVE     RC0603FR-071KL
+
+[00033] NetP1_17
+        P1         17      17             PASSIVE     DS1023-2X13S21
+        P1         19      19             PASSIVE     DS1023-2X13S21
+        P1         21      21             PASSIVE     DS1023-2X13S21
+        P1         23      23             PASSIVE     DS1023-2X13S21
+        P1         25      25             PASSIVE     DS1023-2X13S21
+        R3         2       2              PASSIVE     RC0603FR-071KL
+
+[00032] NetD3_A
+        D3         A       A              PASSIVE     0603-LED-RED
+        R3         1       1              PASSIVE     RC0603FR-071KL
+
+[00031] NetD2_A
+        D2         A       A              PASSIVE     0603-LED-RED
+        R2         1       1              PASSIVE     RC0603FR-071KL
+
+[00030] NetD1_A
+        D1         A       A              PASSIVE     0603-LED-RED
+        R1         1       1              PASSIVE     RC0603FR-071KL
+
+[00029] IO33
+        P1         26      26             PASSIVE     DS1023-2X13S21
+
+[00028] IO32
+        P1         24      24             PASSIVE     DS1023-2X13S21
+
+[00027] IO31
+        P1         22      22             PASSIVE     DS1023-2X13S21
+
+[00026] IO30
+        P1         20      20             PASSIVE     DS1023-2X13S21
+
+[00025] IO29
+        A1         1       1              PASSIVE     DG126-5.0-03P-14
+        P1         18      18             PASSIVE     DS1023-2X13S21
+
+[00024] IO28
+        A1         2       2              PASSIVE     DG126-5.0-03P-14
+        P1         16      16             PASSIVE     DS1023-2X13S21
+
+[00023] IO27
+        P1         14      14             PASSIVE     DS1023-2X13S21
+        Z1         1       1              PASSIVE     DG126-5.0-03P-14
+
+[00022] IO26
+        P1         12      12             PASSIVE     DS1023-2X13S21
+        Z1         2       2              PASSIVE     DG126-5.0-03P-14
+
+[00021] IO25
+        P1         10      10             PASSIVE     DS1023-2X13S21
+        Y1         1       1              PASSIVE     DG126-5.0-03P-14
+
+[00020] IO24
+        P1         7       7              PASSIVE     DS1023-2X13S21
+
+[00019] IO23
+        P1         8       8              PASSIVE     DS1023-2X13S21
+        Y1         2       2              PASSIVE     DG126-5.0-03P-14
+
+[00018] IO22
+        P1         5       5              PASSIVE     DS1023-2X13S21
+
+[00017] IO21
+        P1         6       6              PASSIVE     DS1023-2X13S21
+        X1         1       1              PASSIVE     DG126-5.0-03P-14
+
+[00016] IO20
+        P1         3       3              PASSIVE     DS1023-2X13S21
+
+[00015] IO19
+        P1         4       4              PASSIVE     DS1023-2X13S21
+        X1         2       2              PASSIVE     DG126-5.0-03P-14
+
+[00014] IO18
+        P1         1       1              PASSIVE     DS1023-2X13S21
+
+[00013] IO17
+        A1         3       3              PASSIVE     DG126-5.0-03P-14
+        P1         2       2              PASSIVE     DS1023-2X13S21
+        X1         3       3              PASSIVE     DG126-5.0-03P-14
+        Y1         3       3              PASSIVE     DG126-5.0-03P-14
+        Z1         3       3              PASSIVE     DG126-5.0-03P-14
+
+[00012] Home Z
+        P2         24      24             PASSIVE     DS1023-2X13S21
+
+[00011] Home Y
+        P2         22      22             PASSIVE     DS1023-2X13S21
+
+[00010] Home X
+        P2         20      20             PASSIVE     DS1023-2X13S21
+
+[00009] Home A
+        P2         26      26             PASSIVE     DS1023-2X13S21
+
+[00008] GND
+        A1PWR      2       2              PASSIVE     DG126-5.0-02P-14
+        A2PWR      2       2              PASSIVE     DG126-5.0-02P-14
+        D1         C       C              PASSIVE     0603-LED-RED
+        D2         C       C              PASSIVE     0603-LED-RED
+        D3         C       C              PASSIVE     0603-LED-RED
+        ESTOP      3       3              PASSIVE     DG126-5.0-03P-14
+        P1         9       9              PASSIVE     DS1023-2X13S21
+        P1         11      11             PASSIVE     DS1023-2X13S21
+        P1         13      13             PASSIVE     DS1023-2X13S21
+        P1         15      15             PASSIVE     DS1023-2X13S21
+        P2         9       9              PASSIVE     DS1023-2X13S21
+        P2         11      11             PASSIVE     DS1023-2X13S21
+        P2         13      13             PASSIVE     DS1023-2X13S21
+        P2         15      15             PASSIVE     DS1023-2X13S21
+        PWR_IN     2       2              PASSIVE     DG126-5.0-02P-14
+        X1PWR      2       2              PASSIVE     DG126-5.0-02P-14
+        X2PWR      2       2              PASSIVE     DG126-5.0-02P-14
+        Y1PWR      2       2              PASSIVE     DG126-5.0-02P-14
+        Y2PWR      2       2              PASSIVE     DG126-5.0-02P-14
+        Z1PWR      2       2              PASSIVE     DG126-5.0-02P-14
+        Z2PWR      2       2              PASSIVE     DG126-5.0-02P-14
+
+[00007] ENABLE
+        A2         3       3              PASSIVE     DG126-5.0-03P-14
+        P2         2       2              PASSIVE     DS1023-2X13S21
+        X2         3       3              PASSIVE     DG126-5.0-03P-14
+        Y2         3       3              PASSIVE     DG126-5.0-03P-14
+        Z2         3       3              PASSIVE     DG126-5.0-03P-14
+
+[00006] E-stop
+        ESTOP      1       1              PASSIVE     DG126-5.0-03P-14
+        P2         3       3              PASSIVE     DS1023-2X13S21
+
+[00005] DIR Z
+        P2         14      14             PASSIVE     DS1023-2X13S21
+        Z2         1       1              PASSIVE     DG126-5.0-03P-14
+
+[00004] DIR Y
+        P2         10      10             PASSIVE     DS1023-2X13S21
+        Y2         1       1              PASSIVE     DG126-5.0-03P-14
+
+[00003] DIR X
+        P2         6       6              PASSIVE     DS1023-2X13S21
+        X2         1       1              PASSIVE     DG126-5.0-03P-14
+
+[00002] DIR A
+        A2         1       1              PASSIVE     DG126-5.0-03P-14
+        P2         18      18             PASSIVE     DS1023-2X13S21
+
+[00001] 5V
+        A1PWR      1       1              PASSIVE     DG126-5.0-02P-14
+        A2PWR      1       1              PASSIVE     DG126-5.0-02P-14
+        ESTOP      2       2              PASSIVE     DG126-5.0-03P-14
+        PWR_IN     1       1              PASSIVE     DG126-5.0-02P-14
+        R1         2       2              PASSIVE     RC0603FR-071KL
+        X1PWR      1       1              PASSIVE     DG126-5.0-02P-14
+        X2PWR      1       1              PASSIVE     DG126-5.0-02P-14
+        Y1PWR      1       1              PASSIVE     DG126-5.0-02P-14
+        Y2PWR      1       1              PASSIVE     DG126-5.0-02P-14
+        Z1PWR      1       1              PASSIVE     DG126-5.0-02P-14
+        Z2PWR      1       1              PASSIVE     DG126-5.0-02P-14
+
